@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 16px Helvetica, Sans-Serif;
+    line-height: 24px;
+    background-color: #ebebeb;
+}
+
+.clear {
+    clear: both;
+}
+
+#wrapper {
+    width: 800px;
+    margin: 40px auto 60px;
+}
+
+#pic {
+    float: right;
+    margin: -40px -10px 0 0;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 5px solid #e1e1e1;
+}
+
+
+h1 {
+    margin: 0 0 16px 0;
+    padding: 0 0 16px 0;
+    font-size: 42px;
+    font-weight: bold;
+    letter-spacing: -2px;
+    border-bottom: 1px solid #999;
+}
+h1 name {
+    margin: 0 0 16px 0;
+    padding: 0 0 16px 0;
+    font-size: 42px;
+    font-weight: bold;
+    letter-spacing: -2px;
+    border-bottom: 1px solid #red;
+}
+h2 {
+    font-size: 20px;
+    margin: 0 0 6px -22px;
+    position: relative;
+}
+
+h2 span {
+    position: absolute;
+    bottom: 0;
+    right: -15px;
+    font-style: italic;
+    font-family: Georgia, Serif;
+    font-size: 16px;
+    color: black;
+    font-weight: normal;
+}
+
+span1{
+    position: absolute;
+    bottom: 0;
+    right: -95px;
+    font-style: italic;
+    font-family: Georgia, Serif;
+    font-size: 16px;
+    color:black;
+    font-weight: normal;
+}
+
+
+p {
+    margin: 0 0 16px -10px;
+}
+
+a {
+    color: rgb(85, 83, 83);
+    text-decoration: none;
+    border-bottom: 1px dotted black;
+}
+
+a:hover {
+    border-bottom-style: solid;
+    color: black;
+}
+
+ul {
+    margin: -5px 0 5px 15px;
+}
+
+#objective {
+    width: 500px;
+    float: left;
+}
+
+#objective p {
+    font-family: Georgia, Serif;
+    color: #666;
+    text-indent: 10px;
+}
+
+dt {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: right;
+    padding: 0 26px 0 0;
+    width: 150px;
+    float: left;
+    height: 100px;
+
+}
+
+dd {
+    width: 600px;
+    float: right;
+
+}
+dd.text{
+    border-bottom: 1px solid #999;
+}
+
+dd.clear {
+    float: none;
+    margin: 0;
+    height: 15px;
+}
+
