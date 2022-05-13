@@ -21,6 +21,8 @@ Make sure you have Node installed - [Follow this Guide](https://heynode.com/tuto
 
 ### Installation
 
+*Be sure to not include ```$``` at the start of each command
+
 1.Make a new Directory - via the command line in Terminal enter:
  ```sh
    $ mkdir newfolder && ch /path/to/newfolder 
